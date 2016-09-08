@@ -1,0 +1,28 @@
+{
+  "name": "calculator",
+  "authors": [
+    "hamzicabdulah <abdulahhamzic@gmail.com>"
+  ],
+  "description": "JavaScript calculator (built using AngularJS)",
+  "main": "index.html",
+  "keywords": [
+    "calculator",
+    "JavaScript",
+    "calculator",
+    "AngularJS",
+    "calculator"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8"
+  }
+}

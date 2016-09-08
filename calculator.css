@@ -1,0 +1,92 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+  background: #ffccb3;
+}
+.mainDiv {
+  height: 32em;
+  width: 20em;
+  background: #303746;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -18em;
+  margin-left: -10em;
+  border-radius: 5%;
+  padding-top: 0.3em;
+  box-shadow: 5px 5px 7px #000000;
+  border: solid #29303d;
+}
+h4{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 0.8em;
+  font-family: papyrus;
+  font-variant: small-caps;
+  font-size: 1.18em;
+}
+.result{
+  font-family: 'Orbitron';
+  background: #999999;
+  height: 4em;
+  width: 16.8em;
+  margin: 1.25em auto;
+  border-radius: 5%;
+  display: table;
+}
+.resSpan{
+  text-align: right;
+  padding-right: 0.2em;
+  display: table-cell;
+  font-size: 2em;
+  vertical-align: middle;
+  margin-right: 5em;
+}
+.buttonRow{
+  margin: 0 auto;
+  width: 17em;
+}
+button{
+  width: 3.95em;
+  background: #1f242d;
+  margin-right: 0.3em;
+  margin-bottom: 0.8em;
+  height: 3.4em;
+  border-radius: 20%;
+  color: #ffffff;
+  border-color: #15181e;
+  outline: none!important;
+}
+.btnSpan{
+  font-size: 1.3em;
+}
+.equals{
+  width: 8.2em;
+  border-radius: 15%;
+  background: #3d5c5c;
+  border-color: #334d4d;
+}
+.ac, .ce{
+  background: #b34700;
+  border-color: #993d00;
+}
+footer{
+  text-align: center!important;
+  position: absolute;
+  bottom: 0.5em;
+  left: 0;
+  right: 0;
+  color: #331a00;
+  font-weight: bold;
+}
+@media screen and (max-width: 750px){
+  footer{
+    font-size: 0.9em;
+  }
+  .mainDiv{
+    margin: 2.5em auto 5em;
+    position: static;
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="bower_components/bootstrap.min.css">
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+
+  <body ng-app="calcModule">
+    <div class="mainDiv" ng-controller="calcCtrl">
+      <h4>Javascript Calculator</h4>
+      <div class="result">
+        <span class="resSpan">{{resultVar}}</span>
+      </div>
+      <div class="buttonRow">
+        <button ng-repeat="button in buttons" class="{{button.class}}" ng-click="buttonClick(button.class, button.content)"><span class="btnSpan">{{button.display}}</span></button>
+      </div>
+    </div>
+    <footer><span class="footText">Designed & Coded by <a href="http://hamzicabdulah.github.io/portfolio" target="_blank">Abdulah Hamzic</a></span></footer>
+  </body>
+
+  <script src="bower_components/angular.min.js"></script>
+  <script src="app.js"></script>
+
+</html>
